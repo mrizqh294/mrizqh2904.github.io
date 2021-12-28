@@ -1,0 +1,347 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: lucida bright;
+	background-color: #fbfbfb;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: clear;
+}
+
+/* ini adalah style header */
+
+header {
+	background-color: #404040;
+	height: 85px;
+	width: 100%;
+	color: white;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.header-list li {
+	float: right;
+	padding: 15px 33px;
+	transition: all 0.5s;
+
+}
+
+.header-list li:hover {
+	background-color: grey;
+}
+ .header-list a {
+ 	color: white;
+ 	display: block;
+
+ }
+ 
+.header-logo {
+	float: left;
+	font-size: 36px;
+	padding: 20px 40px;
+}
+
+/* ini adalah style top-wrapper */
+
+.top-wrapper {
+	height: 700px;
+	background-image: url(Picture/bg1.jpg);
+	background-size: cover; 
+	color: black;
+	border: 0px solid #404040;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	padding-left: 600px;
+}
+
+.heading {
+	height: 300px;
+	margin-bottom: 200px;
+	padding-top: 70px;
+}
+
+.container h1 {
+	font-size: 70px;
+	
+}
+
+.container p {
+	font-size: 40px;
+	
+}
+
+.college {
+	font-size: 30px;
+}
+.main-wrapper {
+	height: 300px;
+	background-color: white;
+}
+
+.btn {
+	display: block;
+	float: left;
+	height: 30px;
+	width: 110px;
+	padding: 8px 8px 10px 8px;
+	margin: 35px 20px;
+	border-radius: 10px;
+	transition: all 0.5s;
+	position: relative;
+	left: 80px;
+
+}
+
+.btn:hover {
+	opacity: 1;
+	background-color: grey;
+}
+.btn-wrapper {
+	text-align: center;	
+	margin-top: 225px;
+}
+
+.btn-wrapper a {
+	color: white;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.btn-wrapper h2 {
+	position: relative;
+	left: 0px;
+}
+
+
+.instagram {
+	background-color: #404040;
+}
+
+.linkedin {
+	background-color: #404040;
+}
+
+.tiktok {
+	background-color: #404040;
+}
+
+.content-wrapper {
+	background-image: url(Picture/bg2-rev.jpg);
+	background-size: cover;
+	border : 0px solid #fbfbfb; 
+	height: 670px;
+}
+
+.content {
+	margin:50px;
+	padding left: 50px;
+	width: 800px;
+	text-align: justify;
+	
+}
+
+.content h3 {
+	font-size: 60px;
+}
+
+.content p {
+	font-size: 30px;
+	line-height: 50px;
+}
+
+.skill-wrapper {
+	height :600px;
+	width :100%;
+}
+
+.skill-container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.skill-desc {
+	width: 550px;
+	height: 600px;
+	float: left;
+}
+.skill-desc-2 { 
+	width: 95%; 
+	heght: 600px;
+	text-align: justify;
+ }
+.skill-desc-2 h3 {
+	font-size: 60px;
+}
+
+.skill-desc-2 p {
+	font-size: 30px;
+	line-height: 50px;
+}
+
+.skill-desc-2 a {
+	transition: all 0.5s;
+}
+
+.skill-desc-2 a:hover {
+	background-color: grey;
+}
+
+.skill-img {
+	width: 50%;
+	float: left;
+	padding: 25px;
+	text-align: center;
+}
+
+.port-wrap {
+	width: 100%;
+	height: 550px;
+}
+
+.port-con {
+	width: 100%;
+	margin: 0 auto;
+	height: 550px;
+}
+
+.port-desc {
+	width: 60%;
+	text-align: justify;
+	float: left;
+	padding-left: 50px;
+}
+
+.port-desc h3 {
+	font-size: 60px;
+}
+
+.port-desc p {
+	font-size: 30px;
+	line-height: 50px;
+}
+
+.port-desc a:hover {
+	background-color: grey;
+}
+
+.port-desc a{
+	transition: all 0.5s;
+}
+
+.port-img {
+	width: 30%;
+	margin: 160px 50px 0px 0px;
+	float: right;
+
+
+}
+
+
+.form {
+ 	height: 700px;
+}
+
+.form-container {
+	text-align: center;
+
+}
+
+.form h3 {
+	font-size: 60px;
+}
+
+.form p {
+	opacity: 0.5px;
+}
+.pw {
+	width:30%;
+	height: 45px;
+	border-radius: 5px;
+}
+textarea {
+	width : 40%;
+	height: 150px;
+	border-radius: 5px;
+}
+
+button {
+	width: 40%;
+	Height: 80px;
+
+}
+/* ini adalah style footer */
+
+footer {
+	background-color: #404040;
+	height: 325px;
+	width: 100%;
+	color: white;
+	margin:0 auto;
+}
+
+.all {
+	float: left;	
+	margin-right: 165px;
+}
+
+.footer-logo {
+	width: 400px;
+	padding: 25px 0px 0px 20px;
+}
+
+.footer-list {
+	padding: 20px 0px 0px 0px;
+}
+.social {
+	padding: 20px 0px 0px 0px;
+}
+
+.logo {
+	width: 200px;
+}
+
+.about {
+	text-align: justify;
+	font-size: 15px;
+	letter-spacing:  2px;
+}
+
+.footer-list li {
+	margin-bottom: 30px;
+}
+
+.footer-list li a:hover {
+	background-color: grey;
+}
+
+.footer-list li a {
+	color: white;
+	display: block;
+	transition: all 0.5s;
+}
+
+.social p {
+	font-size: 15px;
+}
+.icon {
+	width: 50px;
+	float:left;
+}
